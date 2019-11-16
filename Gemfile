@@ -3,6 +3,12 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.3'
 
+gem "mini_magick"
+
+gem "fog-aws"
+
+gem "figaro"
+
 gem 'rake', '13.0.1'
 
 gem 'carrierwave', '~> 2.0'
